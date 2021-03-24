@@ -1,0 +1,113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3345144200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I can open the store site",
+            "match": {
+              "location": "Test2.i_can_open_the_store_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1874263400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test2.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "checkout dress",
+        "description": "",
+        "id": "store-tests;checkout-dress",
+        "after": [
+          {
+            "result": {
+              "duration": 705910100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test2.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2956210200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I add dress to basket",
+            "match": {
+              "location": "Test2.i_add_dress_to_basket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4217639100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I checkout",
+            "match": {
+              "location": "Test2.i_checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5095157900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I create account",
+            "match": {
+              "location": "Test2.i_create_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "purchase is complete",
+            "match": {
+              "location": "Test2.purchase_is_complete()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "store tests",
+    "description": "",
+    "id": "store-tests",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cuke/task2.feature"
+  }
+]

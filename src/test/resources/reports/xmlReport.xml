@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.19434">
+    <testcase classname="store tests" name="checkout dress" time="18.19434">
+        <system-out><![CDATA[Given I can open the store site.............................................passed
+When I add dress to basket..................................................passed
+When I checkout.............................................................passed
+When I create account.......................................................passed
+Then purchase is complete...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
